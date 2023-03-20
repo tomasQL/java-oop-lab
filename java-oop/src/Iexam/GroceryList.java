@@ -1,24 +1,20 @@
 package Iexam;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-
+// Grocery List Exam 1 Q
 public class GroceryList {
 
-    private String items;
-    private String[] grocList;
-
+    private String item;
+    ArrayList<String> grocList = new ArrayList<>();
     public GroceryList(){
-        items = "";
-        grocList = ;
+        item = "";
     }
 
     public void insertItem(String item){
-        grocList.append(item);
+        grocList.add(item);
     }
     public void printList(){
-        for (int i = 0; i < ; i++)
-            System.out.println(grocList[i]);
+        for (String s : grocList) System.out.println(s);
     }
 }
 class Demo {
@@ -28,5 +24,42 @@ class Demo {
         gc.insertItem("Garlic");
         gc.insertItem("Bread");
         gc.printList();
+
+    }
+}
+// Parte 2 Examen POO
+class Patient{
+    private String name;
+    private int id;
+    private String doctor;
+
+    public Patient(String name, int id, String doctor) {
+        this.name = name;
+        this.id = id;
+        this.doctor = doctor;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getDoctor() {
+        return doctor;
+    }
+
+    public void setDoctor(String doctor) {
+        this.doctor = doctor;
     }
 }
