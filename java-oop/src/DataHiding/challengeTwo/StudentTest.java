@@ -1,6 +1,6 @@
 package DataHiding.challengeTwo;
 
-public class Main {
+public class StudentTest {
     public static void main(String[] args) {
         Student x = new Student();
         System.out.println(x.getName());

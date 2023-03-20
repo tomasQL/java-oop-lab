@@ -24,11 +24,10 @@ class Demo {
         gc.insertItem("Garlic");
         gc.insertItem("Bread");
         gc.printList();
-
     }
 }
 // Parte 2 Examen POO
-class Patient{
+class Patient {
     private String name;
     private int id;
     private String doctor;

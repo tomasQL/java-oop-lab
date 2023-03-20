@@ -28,7 +28,7 @@ class Car {
         return this.carName + ", " + this.carModel + ", " + this.carCapacity;
     }
 }
-class Demo {
+class CarTest {
     public static void main(String[] args) {
         Car car = new Car("Ferrari","F8","100");
         System.out.println(car.getDetails());

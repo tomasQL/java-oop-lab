@@ -7,7 +7,7 @@ class SquareSum {
         return sum;
     }
 }
-class Demo{
+class SquareSumTest {
     public static void main(String[] args) {
         SquareSum sqrsumop = new SquareSum(); // instancia de un objeto SquareSum
         System.out.println(sqrsumop.squareSum(2,3,4)); // llamado a la func sqrSum con pasando params
